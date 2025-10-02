@@ -490,16 +490,6 @@ nltk.download('wordnet')
 ### PDF Extraction Issues
 Some PDFs may not extract text properly if they contain scanned images. Use OCR tools for scanned documents.
 
-## 🎓 Learning Objectives
-
-This project demonstrates:
-- RESTful API design with Flask
-- NLP techniques (TF-IDF, NER, text preprocessing)
-- Database design and ORM usage
-- File handling and validation
-- Error handling and logging
-- Production-ready code structure
-
 ## 🔮 Future Enhancements
 
 - [ ] Multi-language support
@@ -512,18 +502,3 @@ This project demonstrates:
 - [ ] Real-time processing with WebSockets
 - [ ] Docker containerization
 - [ ] Admin dashboard UI
-
-## 📝 License
-
-This project is created for portfolio and educational purposes.
-
-## 👤 Author
-
-Built as a portfolio project to demonstrate backend development and NLP skills.
-
-## 🙏 Acknowledgments
-
-- spaCy for Named Entity Recognition
-- NLTK for text preprocessing
-- scikit-learn for TF-IDF and similarity calculations
-- Flask for the web framework

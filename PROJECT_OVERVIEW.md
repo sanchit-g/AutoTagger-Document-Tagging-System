@@ -9,7 +9,6 @@ A comprehensive document tagging system built with Python, Flask, and NLP librar
 **Framework:** Flask  
 **Database:** SQLite with SQLAlchemy ORM  
 **NLP Libraries:** NLTK, spaCy, scikit-learn  
-**Purpose:** Portfolio project demonstrating backend development and NLP skills
 
 ## 🏗️ Architecture Overview
 
@@ -344,32 +343,6 @@ gunicorn -w 4 -b 0.0.0.0:5000 run:app
 - Flask-CORS 4.0.0 - CORS support
 - python-dotenv 1.0.0 - Environment variables
 
-## 🎓 Skills Demonstrated
-
-1. **Backend Development:**
-   - RESTful API design
-   - Database modeling & optimization
-   - Request/response handling
-   - Error handling & validation
-
-2. **NLP & Machine Learning:**
-   - Text preprocessing
-   - TF-IDF keyword extraction
-   - Named Entity Recognition
-   - Document similarity (cosine similarity)
-
-3. **Software Engineering:**
-   - Clean code architecture
-   - Separation of concerns
-   - Comprehensive documentation
-   - Test-driven development
-
-4. **DevOps:**
-   - Environment configuration
-   - Logging & monitoring
-   - Deployment scripts
-   - Production-ready setup
-
 ## 🔮 Future Enhancements
 
 **Technical Improvements:**
@@ -397,18 +370,6 @@ gunicorn -w 4 -b 0.0.0.0:5000 run:app
 - **Test Cases:** 10
 - **Documentation:** 3 files
 
-## 🎯 Project Goals Achieved
-
-✅ RESTful API with Flask  
-✅ Automatic tag extraction using NLP  
-✅ Document similarity matching  
-✅ SQLite database with proper schema  
-✅ Comprehensive error handling  
-✅ Production-ready code structure  
-✅ Complete documentation  
-✅ Test suite  
-✅ Setup automation  
-
 ## 📞 Usage Example
 
 ```python
@@ -433,6 +394,5 @@ similar_docs = response.json()['similar_documents']
 
 ---
 
-**Last Updated:** 2024  
-**Version:** 1.0.0  
-**Status:** Production Ready
+**Last Updated:** 2025  
+**Version:** 1.0.0
