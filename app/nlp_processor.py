@@ -2,18 +2,15 @@
 NLP Processing Module for AutoTagger
 Handles keyword extraction, NER, and document similarity
 """
-import re
 import logging
-from collections import Counter
+import re
 from typing import List, Dict, Tuple
-import numpy as np
 
 import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
-
 import spacy
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
